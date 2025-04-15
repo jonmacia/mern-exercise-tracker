@@ -1,0 +1,59 @@
+body {
+  font-family:'Font Name', sans-serif;
+  background-color:rgb(23, 223, 67);
+  color:rgb(9, 163, 184);
+  margin: 20px;
+  padding: 3px 20px 5px 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #802509;
+}
+
+tr td {border:2px solid rgb(151, 77, 99);
+  color:rgb(68, 107, 192);
+  padding: 3px 20px 5px 20px;
+ }
+
+ tr th {border:2px solid rgb(151, 77, 99);
+  color:rgb(9, 64, 184);
+  padding: 3px 20px 5px 20px;
+ }
+
+ input, button {
+  font-family:'Font Name', sans-serif;
+  font-size:1.2em;
+  color:var(--custom-color);
+  line-height:1.15;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
